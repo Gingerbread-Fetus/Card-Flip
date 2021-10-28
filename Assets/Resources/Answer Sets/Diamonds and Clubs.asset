@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a545048ee5ebec4496ec3cbc714caac, type: 3}
+  m_Name: Diamonds and Clubs
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 29e046942e205344dbf0e164e623dac2, type: 2}
+  - {fileID: 11400000, guid: e48fa096549a1bf48b49f36efda93b55, type: 2}
+  - {fileID: 11400000, guid: 7278281ff6c2b8b458a1c984d4d645af, type: 2}
+  - {fileID: 11400000, guid: 94e9402fe45993348abdfba24e768ced, type: 2}
+  - {fileID: 11400000, guid: d265c980518f8864e8d92562a3ca3a0c, type: 2}
+  - {fileID: 11400000, guid: 31924d5d18ba1994387a72daa717add8, type: 2}
+  - {fileID: 11400000, guid: b1b4b97f36849b840900b8a374318c43, type: 2}
+  - {fileID: 11400000, guid: 8d3effd1059206f458b99c561ce35c86, type: 2}
+  - {fileID: 11400000, guid: 6ef95debe72f60843804955b2ad66366, type: 2}
+  - {fileID: 11400000, guid: a5d2e24fff77d8b41a90841cccd7ae55, type: 2}
+  - {fileID: 11400000, guid: 865f2ed0cf62df54c80c5c524388d747, type: 2}
+  - {fileID: 11400000, guid: 59645fc6a696a994b875aca3158d12d5, type: 2}

@@ -339,7 +339,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8294639}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 71a6fe7e5d03e3a4194dfedeede9765b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8294639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,7 +764,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 157129098}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 17f9cd7daec5e0145a939558848f4e81, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &157129098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -983,7 +1055,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 197875116}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f556eb0faad9cb54e982660f31669117, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &197875116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1318,7 +1426,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 306643615}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 3f1252760f1675a488cb35e03fea2f11, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &306643615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,7 +1717,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 361506830}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f6db8f941cadada4fb52a9f44256a920, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &361506830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1931,7 +2111,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 391082585}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: a85d00bbe77abad4d8c99439da36504c, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &391082585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,7 +2268,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 409605803}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f328016bcc7f4ee43adbcd38469c03c0, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &409605803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2562,7 +2814,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 480056278}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f52c6761b5fc2a5499f5746ffec711c2, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &480056278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3452,7 +3740,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 568311464}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 2ade75f9ff0cf7d49964dc82bfaca24d, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &568311464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3785,7 +4109,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 644110878}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f4e9ef17e8ef47e4e86bb655e9de34ec, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &644110878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4442,7 +4802,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 795187433}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: ff5bfe49e363d9b48a7253851d82f4cc, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &795187433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4697,7 +5093,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 825462389}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 5329ded0dab80df438b6f9912eda1e31, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &825462389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4818,7 +5250,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 875170379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: a5853a7e0f605e94b9ed93a499bd60d4, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &875170379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5075,7 +5543,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 907094962}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: cc79cd42d090e9746a58b22ed3b7e6fb, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &907094962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5405,7 +5909,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 949810363}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: c9fe4507fd37c214f8b65f6f9dc86e82, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &949810363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5526,7 +6066,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 976596648}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 339a4897281042d4e83f2c75e408fdaf, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &976596648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5781,7 +6357,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 991082896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 09ee78d8948a0a94f968b8225ede20c4, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &991082896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6038,7 +6650,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1038043518}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 7a8bc0ae65145c741827ad636b401b8a, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1038043518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6159,7 +6807,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1043203998}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: fc48c7b80a20a2e4f99325b157e2f85a, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1043203998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6684,7 +7368,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1119250751}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: e227069cbf4ba6e4dad66d50ce58aa4f, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1119250751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6805,7 +7525,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1151305230}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 2e84691456fefe94997166ae921bb474, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1151305230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6974,7 +7730,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1165831518}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 66ecab5374797fe40bd48598a3c655cf, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1165831518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7229,7 +8021,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1188939261}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 5848731d14e5b5941a9ce057b0886b3b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1188939261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8022,7 +8850,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1330916654}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f8d6a326e439b324b8afe34ed126002f, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1330916654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8411,7 +9275,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1416173160}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 7e136ea2fc7f94844b230321339369b5, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1416173160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8532,7 +9432,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1452388232}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: fdc0b9272abd38a4da03364ee991c109, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1452388232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8653,7 +9589,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1457040459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 40ffcb1da3e03254abd6feb4e7337a80, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1457040459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8908,7 +9880,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1477689057}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f7703874f01a19a4e963fe787712144b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1477689057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9297,7 +10305,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1542156916}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: fd78c606f5c7f1445acb15d3270ce5fb, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1542156916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9418,7 +10462,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1548279419}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 0682e39bfd2890c40817de041f5c3e2c, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1548279419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10209,7 +11289,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1759241868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 962c122735d58124eb15d803e1a65e30, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1759241868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10464,7 +11580,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1810959879}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 4fb2b35aa0a87564cbd54d80e6d345eb, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1810959879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10853,7 +12005,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1912144145}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 07ed698c58cb547469095e9ac76f34bf, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1912144145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10974,7 +12162,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1990644402}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 0eb3746cbe14ac041bc511bad855ad87, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1990644402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11095,7 +12319,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2020825154}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 58316e17faaed7549ab8c8c516d3695e, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2020825154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11216,7 +12476,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2045309065}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 5e95e9ebffb27c84c8c30136b026b417, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2045309065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11362,6 +12658,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 287db96a22390ec45babf58e8036fe3b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2085766743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11482,7 +12790,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2091208157}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 6b4d6343ea7dcaf45abeab1338c88922, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2091208157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11603,7 +12947,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2096426193}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetMultiplier
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: PlaceWager
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155387588}
+        m_TargetAssemblyTypeName: Core.Dealer, Assembly-CSharp
+        m_MethodName: SetAnswerSet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 55627ee80b6caac49a628548d25a54ba, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Cards.CardCollection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2096426193
 MonoBehaviour:
   m_ObjectHideFlags: 0

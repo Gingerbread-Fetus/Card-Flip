@@ -14,10 +14,12 @@ namespace Core
         Stack<Card> playDeck;
         List<Card> discard;
         List<Card> playedCards = new List<Card>(2);
+        CardCollection answerSet;
         [HideInInspector]
         private bool b_isBetPlaced = false;
         int wager = 0;
         int multiplier = 0;
+        [HideInInspector]
         public int roundsPlayed = 0;
 
         private void Awake() 
@@ -33,8 +35,6 @@ namespace Core
             print("Reset the state here");
             ResetDeck();
             GetNextCards();
-            roundsPlayed += 1;
-            print("Rounds played: " + roundsPlayed);
             b_isBetPlaced = false;
         }
 
@@ -63,18 +63,17 @@ namespace Core
             return playDeck.Pop();
         }
 
-        //TODO Note that this should not be possible to call before they have placed their bet.
         public void ChooseCard(int i)
         {
             if(b_isBetPlaced) 
             {
                 // Reveal card
-                cardButtons[i].ChangeText(playedCards[i].value + " of " + playedCards[i].Suit.ToString());
-                // Card ChosenCard = playedCards[i];
-                // foreach(Card card in playedCards) discard.Add(card);
-                // playedCards.Clear();
-                // roundsPlayed++;
-                // Resolve bet
+                Card revealedCard = playedCards[i];
+                cardButtons[i].ChangeText(revealedCard.value + " of " + revealedCard.Suit.ToString());
+                if(answerSet.GetValidCards().Contains(revealedCard))
+                {
+                    print("Card match!");
+                }
                 StartCoroutine(EndRound());
             }
         }
@@ -89,6 +88,11 @@ namespace Core
         public void SetMultiplier(int newMultiplier)
         {
             multiplier = newMultiplier;
+        }
+
+        public void SetAnswerSet(CardCollection newAnswers)
+        {
+            answerSet = newAnswers;
         }
     }
 }
