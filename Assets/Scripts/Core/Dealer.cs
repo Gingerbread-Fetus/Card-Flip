@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cards;
+using Inventory;
 using UI;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ namespace Core
     {
         [SerializeField] Deck baseDeck;
         [SerializeField] List<CardButton> cardButtons;
+        [SerializeField] Wallet playerWallet;
         Stack<Card> playDeck;
         List<Card> discard;
         List<Card> playedCards = new List<Card>(2);
@@ -73,11 +75,22 @@ namespace Core
                 if(answerSet.GetValidCards().Contains(revealedCard))
                 {
                     print("Card match!");
+                    int payout = wager * multiplier;
+                    StartCoroutine(StartPayout(payout));
                 }
                 StartCoroutine(EndRound());
             }
         }
 
+        private IEnumerator StartPayout(int winnings)
+        {
+            int total = playerWallet.coins + winnings;
+            while(playerWallet.coins < total)
+            {
+                playerWallet.coins += 1;
+                yield return new WaitForSeconds(.01f);
+            }
+        }
 
         public void PlaceWager(int newWager)
         {
