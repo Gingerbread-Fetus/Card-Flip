@@ -8,10 +8,6 @@ namespace UI
     {
         void Awake() 
         {
-            if(gameObject.activeInHierarchy)
-            {
-                gameObject.SetActive(false);
-            }
         }
     }
 }

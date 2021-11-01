@@ -13,6 +13,7 @@ namespace Core
         [SerializeField] Deck baseDeck;
         [SerializeField] List<CardButton> cardButtons;
         [SerializeField] Wallet playerWallet;
+        [SerializeField] GameObject wagerPanel;
         Stack<Card> playDeck;
         List<Card> discard;
         List<Card> playedCards = new List<Card>(2);
@@ -38,6 +39,7 @@ namespace Core
             ResetDeck();
             GetNextCards();
             b_isBetPlaced = false;
+            wagerPanel.SetActive(true);
         }
 
         private void GetNextCards()
@@ -95,12 +97,12 @@ namespace Core
         public void PlaceWager(int newWager)
         {
             wager = newWager;
-            b_isBetPlaced = true;
         }
 
         public void SetMultiplier(int newMultiplier)
         {
             multiplier = newMultiplier;
+            b_isBetPlaced = true;
         }
 
         public void SetAnswerSet(CardCollection newAnswers)
