@@ -9,6 +9,7 @@ namespace UI
     public class CardButton : MonoBehaviour
     {
         [SerializeField] Image backImage;
+        
         Image frontImage;
         public void SetImage(Image newImage)
         {

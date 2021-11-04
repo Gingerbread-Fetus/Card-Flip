@@ -14,6 +14,8 @@ namespace Core
         [SerializeField] List<CardButton> cardButtons;
         [SerializeField] Wallet playerWallet;
         [SerializeField] GameObject wagerPanel;
+
+        [SerializeField] List<UIWagerButton> buttonsToDisable;
         Stack<Card> playDeck;
         List<Card> discard;
         List<Card> playedCards = new List<Card>(2);
@@ -33,7 +35,7 @@ namespace Core
 
         private IEnumerator EndRound()
         {
-            yield return new WaitForSeconds(3.0f);//TODO See if I can make this wait until the payout is resolved
+            yield return new WaitForSeconds(3.0f);//TODO 
             foreach(CardButton cb in cardButtons) cb.ChangeText("Card Back");
             print("Reset the state here");
             ResetDeck();
@@ -59,6 +61,10 @@ namespace Core
                 {
                     playDeck.Push(c);
                 }
+                foreach (UIWagerButton button in buttonsToDisable)
+                {
+                    button.ReenableButton();
+                }
             }
         }
 
@@ -69,18 +75,38 @@ namespace Core
 
         public void ChooseCard(int i)
         {
-            if(b_isBetPlaced) 
+            if(b_isBetPlaced)
             {
                 // Reveal card
-                Card revealedCard = playedCards[i];
-                cardButtons[i].ChangeText(revealedCard.value + " of " + revealedCard.Suit.ToString());
-                if(answerSet.GetValidCards().Contains(revealedCard))
+                Card chosenCard = playedCards[i];
+                // RevealCards();
+                cardButtons[i].ChangeText(playedCards[i] + " of " + playedCards[i].Suit.ToString());
+
+                if (answerSet.GetValidCards().Contains(chosenCard))
                 {
                     print("Card match!");
                     int payout = wager * multiplier;
                     StartCoroutine(StartPayout(payout));
                 }
+                DisableButton(chosenCard);
                 StartCoroutine(EndRound());
+            }
+        }
+
+        private void RevealCards()
+        {
+            for(int i = 0; i < playedCards.Count; i++)
+            {
+                cardButtons[i].ChangeText(playedCards[i] + " of " + playedCards[i].Suit.ToString());
+                // DisableButton(playedCards[i]);
+            }
+        }
+
+        private void DisableButton(Card revealedCard)
+        {
+            foreach(UIWagerButton button in buttonsToDisable)
+            {
+                if(button.containsCard(revealedCard)) button.DeactivateButton();
             }
         }
 
@@ -103,11 +129,14 @@ namespace Core
         {
             multiplier = newMultiplier;
             b_isBetPlaced = true;
+            
+            print("Multiplier: " + multiplier);
         }
 
         public void SetAnswerSet(CardCollection newAnswers)
         {
             answerSet = newAnswers;
+            print("Answer set: " + answerSet.name);
         }
     }
 }
